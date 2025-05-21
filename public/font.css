@@ -1,22 +1,22 @@
 @font-face {
   font-family: peyda;
-  src: url(/fonts/Peyda-Regular.eot);
-  src: url(/fonts/Peyda-Regular.ttf);
-  src: url(/fonts/Peyda-Regular.woff);
-  src: url(/fonts/Peyda-Regular.woff2);
+  src: url(../fonts/Peyda-Regular.eot);
+  src: url(../fonts/Peyda-Regular.ttf);
+  src: url(../fonts/Peyda-Regular.woff);
+  src: url(../fonts/Peyda-Regular.woff2);
 }
 @font-face {
   font-family: yekan-thin;
-  src: url(/fonts/YekanBakh-Thin.woff);
-  src: url(/fonts/YekanBakh-Thin.woff2);
+  src: url(../fonts/YekanBakh-Thin.woff);
+  src: url(../fonts/YekanBakh-Bold.woff2);
 }
 @font-face {
   font-family: yekan-normal;
-  src: url(/fonts/YekanBakh-Regular.woff);
-  src: url(/fonts/YekanBakh-Regular.woff2);
+  src: url(../fonts/YekanBakh-Regular.woff);
+  src: url(../fonts/YekanBakh-Regular.woff2);
 }
 @font-face {
   font-family: yekan-bold;
-  src: url(/fonts/YekanBakh-Bold.woff);
-  src: url(/fonts/YekanBakh-Bold.woff2);
+  src: url(../fonts/YekanBakh-Bold.woff);
+  src: url(../fonts/YekanBakh-Bold.woff2);
 }
