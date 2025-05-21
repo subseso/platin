@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./public/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آژانس ارتباطات و بازاریابی پلاتین</title>
+    <style>
+      html,
+      .swiper {
+        width: inherit;
+        height: inherit;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide > img {
+        display: block;
+        width: 540px;
+        height: 540px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="tophead">
+          <div class="headlogo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="131"
+              height="26"
+              viewBox="0 0 131 26"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_8147_183)">
+                <path
+                  d="M94.9046 0.0296631H93.0561C92.1708 0.0296631 91.4531 0.747535 91.4531 1.63309V3.48215C91.4531 4.36771 92.1708 5.08558 93.0561 5.08558H94.9046C95.7899 5.08558 96.5075 4.36771 96.5075 3.48215V1.63309C96.5075 0.747535 95.7899 0.0296631 94.9046 0.0296631Z"
+                  fill="#96E900"
+                />
+                <path
+                  d="M129.078 0.0296631H128.236C127.462 0.0296631 126.832 0.659613 126.832 1.43368V2.27664C126.832 3.05071 127.462 3.68066 128.236 3.68066H129.078C129.852 3.68066 130.482 3.05071 130.482 2.27664V1.43368C130.483 0.659613 129.853 0.0296631 129.078 0.0296631ZM130.202 2.27664C130.202 2.89662 129.698 3.40058 129.078 3.40058H128.236C127.616 3.40058 127.112 2.89662 127.112 2.27664V1.43368C127.112 0.813702 127.616 0.310648 128.236 0.310648H129.078C129.698 0.310648 130.202 0.814608 130.202 1.43368V2.27664Z"
+                  fill="white"
+                />
+                <path
+                  d="M129.181 1.88233C129.254 1.82522 129.291 1.73549 129.291 1.61403V1.56146C129.291 1.41281 129.24 1.31311 129.136 1.26235C129.032 1.21068 128.894 1.1853 128.721 1.1853H127.926V2.52406H128.168L128.165 1.9911H128.555L129.065 2.52406H129.387L128.871 1.98747C129.003 1.97478 129.106 1.93943 129.181 1.88142M128.165 1.76903V1.40737H128.789C128.815 1.40737 128.834 1.40828 128.846 1.40918C128.884 1.40918 128.918 1.41372 128.952 1.42459C129.019 1.44544 129.053 1.49167 129.053 1.56327V1.6095C129.053 1.65845 129.039 1.6938 129.014 1.71736C128.99 1.74002 128.956 1.75452 128.916 1.75996C128.877 1.7654 128.824 1.76903 128.756 1.76903H128.166H128.165Z"
+                  fill="white"
+                />
+                <path
+                  d="M94.9046 10.1406H93.0561C92.1708 10.1406 91.4531 10.8585 91.4531 11.7441V23.704C91.4531 24.5896 92.1708 25.3075 93.0561 25.3075H94.9046C95.7899 25.3075 96.5075 24.5896 96.5075 23.704V11.7441C96.5075 10.8585 95.7899 10.1406 94.9046 10.1406Z"
+                  fill="white"
+                />
+                <path
+                  d="M64.5813 5.08562H62.7328C61.8475 5.08562 61.1299 5.80349 61.1299 6.68905V7.61358L59.3022 5.78537C58.8546 5.3376 58.2475 5.08562 57.6141 5.08562H46.9571C46.3237 5.08562 45.7166 5.3376 45.2689 5.78537L41.6136 9.4418C41.166 9.88956 40.9141 10.4969 40.9141 11.1304V19.2627C40.9141 19.8963 41.166 20.5035 41.6136 20.9513L45.2689 24.6077C45.7166 25.0555 46.3237 25.3075 46.9571 25.3075H57.6141C58.2475 25.3075 58.8546 25.0555 59.3022 24.6077L61.1299 22.7795V23.7041C61.1299 24.5896 61.8475 25.3075 62.7328 25.3075H64.5813C65.4666 25.3075 66.1843 24.5896 66.1843 23.7041V6.68814C66.1843 5.80259 65.4666 5.08472 64.5813 5.08472M61.1299 20.2516H45.9676V10.1406H61.1299V20.2516Z"
+                  fill="white"
+                />
+                <path
+                  d="M34.2571 0.0296631H32.4086C31.5233 0.0296631 30.8057 0.747535 30.8057 1.63309V23.704C30.8057 24.5896 31.5233 25.3074 32.4086 25.3074H34.2571C35.1424 25.3074 35.8601 24.5896 35.8601 23.704V1.63309C35.8601 0.747535 35.1424 0.0296631 34.2571 0.0296631Z"
+                  fill="white"
+                />
+                <path
+                  d="M122.478 5.78446C122.03 5.3367 121.423 5.08472 120.79 5.08472H107.605C106.972 5.08472 106.365 5.3367 105.917 5.78446L102.262 9.44089C101.814 9.88865 101.562 10.4959 101.562 11.1295V24.5108C101.562 24.9504 101.919 25.3066 102.358 25.3066H105.82C106.26 25.3066 106.616 24.9504 106.616 24.5108V10.1406H121.778V24.5108C121.778 24.9504 122.134 25.3066 122.574 25.3066H126.036C126.476 25.3066 126.832 24.9504 126.832 24.5108V11.1304C126.832 10.4969 126.58 9.88956 126.132 9.4418L122.477 5.78537L122.478 5.78446Z"
+                  fill="white"
+                />
+                <path
+                  d="M84.7967 5.08558H76.2918V0.825485C76.2918 0.38588 75.9357 0.0296631 75.4962 0.0296631H72.0339C71.5944 0.0296631 71.2383 0.38588 71.2383 0.825485V19.2626C71.2383 19.8962 71.4902 20.5035 71.9378 20.9513L75.5932 24.6077C76.0408 25.0555 76.6479 25.3074 77.2813 25.3074H85.6041C86.0436 25.3074 86.3997 24.9512 86.3997 24.5116V21.0483C86.3997 20.6086 86.0436 20.2524 85.6041 20.2524H76.2918V10.1406H84.7967C85.682 10.1406 86.3997 9.42272 86.3997 8.53716V6.6881C86.3997 5.80255 85.682 5.08467 84.7967 5.08467"
+                  fill="white"
+                />
+                <path
+                  d="M21.3978 0.729407C20.9501 0.281643 20.343 0.0296631 19.7096 0.0296631H6.52541C5.89203 0.0296631 5.28492 0.281643 4.83729 0.729407L1.18196 4.38584C0.734326 4.8336 0.482422 5.44089 0.482422 6.07447V10.1406C0.482422 10.5802 0.838532 10.9364 1.27801 10.9364H4.74033C5.17981 10.9364 5.53592 10.5802 5.53592 10.1406V5.08468H20.6982V15.1956H6.52541C5.89203 15.1956 5.28492 15.4476 4.83729 15.8953L1.18196 19.5518C0.734326 19.9995 0.482422 20.6068 0.482422 21.2404V24.5107C0.482422 24.9503 0.838532 25.3065 1.27801 25.3065H4.74033C5.17981 25.3065 5.53592 24.9503 5.53592 24.5107V20.2515H19.7096C20.343 20.2515 20.9501 19.9995 21.3978 19.5518L25.0531 15.8953C25.5007 15.4476 25.7526 14.8403 25.7526 14.2067V6.07447C25.7526 5.44089 25.5007 4.8336 25.0531 4.38584L21.3978 0.729407Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_8147_183">
+                  <rect
+                    width="130"
+                    height="25.2778"
+                    fill="white"
+                    transform="translate(0.482422 0.0296631)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="headmenu">
+            <ul>
+              <li><p id="main-head">صفحه اصلی</p></li>
+              <li><p>مشتریان ما</p></li>
+              <li id="sub-1">
+                <p>خدمات ما</p>
+                <div class="submenu-1" id="submenu-1">
+                  <ul>
+                    <li id="platin-media-0">
+                      <p>برندینگ</p>
+                      <i class="fa-solid fa-greater-than"></i>
+                      <div class="navmenu-1">
+                        <ul>
+                          <li><p>تدوین استراڑی برند</p></li>
+                          <li><p>طراحی هویت بصری</p></li>
+                          <li><p>طراحی هویت اوایی</p></li>
+                          <li><p>نام گذاری برند</p></li>
+                          <li>
+                            <p id="nav-1">طراحی بسته بندی و یونیفرم محصولی</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li id="platin-media-1">
+                      <p>ارتباطات بازاریابی</p>
+                      <i class="fa-solid fa-greater-than"></i>
+                    </li>
+                    <li id="platin-media-2">
+                      <p>مشاوره کسب و کار</p>
+                      <i class="fa-solid fa-greater-than"></i>
+                    </li>
+                    <li id="platin-media">
+                      <p id="platin-media-text">
+                        مدیریت و خرید رسانه(پلاتین مدیا)
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <p>نمونه کارها</p>
+              </li>
+              <li><p>اخبار و مقالات</p></li>
+              <li><p>درباره ما</p></li>
+              <li><p>ارتباط با ما</p></li>
+              <li id="singhov">
+                <p>پلاتین مدیا</p>
+                <div class="submenu-2">
+                  <p>مدیریت خرید رسانه</p>
+                </div>
+              </li>
+              <li><p>EN</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="headban">
+          <img src="./image/bannergif1.gif" alt="head-banner" />
+        </div>
+      </header>
+      <section>
+        <div class="sec-1">
+          <div class="sec-con-1">
+            <span>
+              آژانس بازاریابی و ارتباطات پلاتین با ارائه‌ی خدمات اختصاصی، نیاز
+              اصلی کسب و کارهای متوسط و بزرگ را در لایه‌‌ی یکپارچه سازی و بهبود
+              .فعالیت های ارتباطی پاسخ می‌دهد و خدمات خود را در طی ده سال گذشته
+              در همکاری با برند‌هایی نظیر گروه صنعتی گلرنگ (افق کورش)، شیرینی
+              لیلی، گروه صنعتی نظری، فرش بهشتی و ... به نمایش گذاشته است.
+            </span>
+          </div>
+          <div class="sec-vid-1">
+            <style>
+              .h_iframe-aparat_embed_frame {
+                position: relative;
+              }
+              .h_iframe-aparat_embed_frame .ratio {
+                display: block;
+                width: 100%;
+                height: auto;
+              }
+              .h_iframe-aparat_embed_frame iframe {
+                position: absolute;
+                margin-left: 10px;
+                border: none;
+                top: 150px;
+                left: 0;
+                width: 520px;
+                height: 300px;
+                border-radius: 7%;
+              }
+            </style>
+            <div class="h_iframe-aparat_embed_frame">
+              <span style="display: block; padding-top: 57%"></span
+              ><iframe
+                src="https://www.aparat.com/video/video/embed/videohash/f211198/vt/frame"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="sec-2">
+          <div class="sec-top">
+            <img src="./image/Screenshot 1404-02-22 at 11.01.48.png" alt="" />
+            <h1>خدمات ما</h1>
+          </div>
+          <div class="sec-op">
+            <div class="sec-but" id="but-1">
+              <img src="/image/1.webp" alt="" />
+              <p>برندینگ</p>
+            </div>
+            <div class="sec-but" id="but-2">
+              <img src="/image/2.webp" alt="" />
+              <p>کمیپین تبلیغاتی</p>
+            </div>
+            <div class="sec-but" id="but-3">
+              <img src="/image/3.webp" alt="" />
+              <p>تولید محتوا</p>
+            </div>
+            <div class="sec-but" id="but-4">
+              <img src="/image/4.webp" alt="" />
+              <p>مشاوره کسب و کار</p>
+            </div>
+            <div class="sec-but" id="but-5">
+              <img src="/image/5.webp" alt="" />
+              <p>وبسایت</p>
+            </div>
+            <div class="sec-but" id="but-6">
+              <img src="/image/6.webp" alt="" />
+              <p>برگزاری نمایشگاه و رویداد</p>
+            </div>
+            <div class="sec-but" id="but-7">
+              <img src="/image/7.webp" alt="" />
+              <p>مدیریت شبکه های اجتماعی</p>
+            </div>
+          </div>
+          <div class="op-2">
+            <div class="op-bg" id="point-1">
+              <div class="op-con"></div>
+              <ul id="ul-point-1">
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تدوین استراتژی برند:
+                    <span style="font-family: yekan-normal">
+                      مشخص کردن ارزش‌ها، مأموریت و چشم‌انداز برند.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    طراحی هویت بصری:
+
+                    <span style="font-family: yekan-normal"
+                      >طراحی مارکتینگ پلن، استراتژی ورود به بازار و توسعه
+                      فرآیندهای فروش.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    هویت کلامی:
+                    <span style="font-family: yekan-normal"
+                      >لحن و نحوه بیان پیام برند.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    هویت آوایی:
+                    <span style="font-family: yekan-normal"
+                      >صدای برند و المان‌های صوتی.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    هویت بویایی:
+                    <span style="font-family: yekan-normal">
+                      المان‌های مرتبط با محصولات یا محیط برند.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    یکپارچگی برند:
+                    <span style="font-family: yekan-normal"
+                      >ایجاد هویت پایدار و متمرکز برای ماندگاری در ذهن مخاطب.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="op-bg" id="point-2">
+              <div class="op-con"></div>
+              <ul id="ul-point-2">
+                <li>
+                  <p style="font-family: yekan-bold">
+                    کمپین تبلیغاتی ۳۶۰ درجه:
+                    <span style="font-family: yekan-normal">
+                      استفاده همزمان از رسانه‌های مختلف (محیطی، دیجیتال،
+                      تلویزیونی، بیلبورد و …) برای انتقال یک پیام واحد.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    کمپین تبلیغاتی دیجیتال:
+                    <span style="font-family: yekan-normal">
+                      تبلیغات آنلاین شامل شبکه‌های اجتماعی، موتورهای جستجو
+                      (Google Ads) و تبلیغات بنری.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    اینفلوئنسر مارکتینگ:
+                    <span style="font-family: yekan-normal"
+                      >همکاری با افراد تأثیرگذار برای معرفی برند و
+                      محصولات.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تبلیغات محیطی و نمایشگاهی:
+                    <span style="font-family: yekan-normal">
+                      بیلبوردها، رویدادها و نمایشگاه‌های حضوری.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تبلیغات شبکه‌های اجتماعی:
+                    <span style="font-family: yekan-normal"
+                      >کمپین‌های هدفمند در پلتفرم‌هایی مثل اینستاگرام، لینکدین و
+                      تلگرام.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="op-bg" id="point-3">
+              <div class="op-con"></div>
+              <ul>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تدوین استراتژی برند:محتوای ویدیویی:
+                    <span style="font-family: yekan-normal">
+                      ویدیوهای تبلیغاتی، آموزشی، معرفی و مصاحبه.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    محتوای موشن گرافیک:
+
+                    <span style="font-family: yekan-normal"
+                      >انیمیشن و موشن گرافیک ساده و پیچیده فرآیندهای فروش.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    محتوای گرافیکی:
+                    <span style="font-family: yekan-normal"
+                      >طراحی اینفوگرافیک، بنر، پست شبکه‌های اجتماعی و تبلیغاتی.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    عکاسی:
+                    <span style="font-family: yekan-normal"
+                      >عکاسی صنعتی، عکاسی محصول، عکاسی تبلیغاتی.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    محتوای متنی:
+                    <span style="font-family: yekan-normal">
+                      مقالات، بلاگ، کپشن‌نویسی و سناریونویسی.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    محتوای صوتی:
+                    <span style="font-family: yekan-normal"
+                      >پادکست، تبلیغات صوتی و نریشن.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="op-bg" id="point-4">
+              <div class="op-con"></div>
+              <ul id="ul-point-4">
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تحلیل و بهینه‌سازی سازمان:
+                    <span style="font-family: yekan-normal">
+                      بررسی فرآیندها و ارائه راهکار برای بهبود عملکرد و ساختار
+                      داخلی.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    استراتژی‌های بازاریابی و فروش:
+                    <span style="font-family: yekan-normal"
+                      >طراحی مارکتینگ پلن، استراتژی ورود به بازار و توسعه
+                      فرآیندهای فروش.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    برنامه‌ریزی رشد و توسعه:
+                    <span style="font-family: yekan-normal"
+                      >مدل‌سازی فرنچایز و طراحی برنامه‌های وفاداری (Loyalty
+                      Program) برای جذب و حفظ مشتری.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    توسعه تیم و منابع:
+                    <span style="font-family: yekan-normal"
+                      >ایجاد و بهبود تیم‌های بازاریابی برای ارتقای بهره‌وری.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="op-bg" id="point-5">
+              <div class="op-con"></div>
+              <ul id="ul-point-5">
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تدوین استراتژی وب‌سایت:
+                    <span style="font-family: yekan-normal"
+                      >طراحی ساختار (Website Map) متناسب با نیازهای
+                      کسب‌وکار.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    طراحی UI/UX:
+                    <span style="font-family: yekan-normal"
+                      >ایجاد رابط کاربری زیبا و تجربه کاربری بهینه برای جذب
+                      مخاطب.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    هویت آوایی:سیستم دیزاین:
+                    <span style="font-family: yekan-normal"
+                      >ایجاد طراحی یکپارچه و المان‌های بصری هماهنگ برای انسجام
+                      وب‌سایت.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    برنامه‌نویسی و پیاده‌سازی:
+                    <span style="font-family: yekan-normal">
+                      توسعه وب‌سایت کارآمد و پاسخگو به نیازهای کسب‌وکار.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    هماهنگی با هویت برند:
+                    <span style="font-family: yekan-normal">
+                      اطمینان از همخوانی کامل وب‌سایت با هویت بصری و اهداف برند.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="op-bg" id="point-6">
+              <div class="op-con"></div>
+              <ul id="ul-point-6">
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تدوین کانسپت اصلی:
+                    <span style="font-family: yekan-normal">
+                      خلق یک ایده محوری و طراحی کانسپت برای حضور برند در
+                      نمایشگاه یا ایونت.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    طراحی تاچ‌پوینت‌ها:
+                    <span style="font-family: yekan-normal"
+                      >برنامه‌ریزی و طراحی تمامی نقاط تماس برند (غرفه، محتوا،
+                      فعالیت‌ها) بر اساس کانسپت.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    اجرای یکپارچه:
+                    <span style="font-family: yekan-normal"
+                      >طراحی غرفه، تولید محتوا، برنامه‌ریزی جلسات و مدیریت
+                      رویدادهای جانبی.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    پیش و پس از رویداد:
+                    <span style="font-family: yekan-normal"
+                      >برنامه‌ریزی پیش‌نمایش، ایجاد تجربه مؤثر حین رویداد و
+                      تحلیل عملکرد پس از آن.
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="op-bg" id="point-7">
+              <div class="op-con"></div>
+              <ul id="ul-point-7">
+                <li>
+                  <p style="font-family: yekan-bold">
+                    تدوین استراتژی:
+                    <span style="font-family: yekan-normal">
+                      تعیین اهداف کسب‌وکار و مخاطب‌شناسی.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    طراحی هویت بصری:برنامه‌ریزی و تولید محتوا:
+
+                    <span style="font-family: yekan-normal"
+                      >تولید محتوای متنی، بصری و ویدیویی متناسب با هویت
+                      برند.</span
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    نظارت و تحلیل عملکرد:
+                    <span style="font-family: yekan-normal"
+                      >بررسی بازخورد مخاطبان، تحلیل داده‌ها و بهینه‌سازی
+                      فعالیت‌ها.
+                    </span>
+                  </p>
+                </li>
+                <li>
+                  <p style="font-family: yekan-bold">
+                    طراحی کمپین‌های اجتماعی:
+                    <span style="font-family: yekan-normal"
+                      >ایجاد کمپین‌های هدفمند برای تعامل بیشتر با مخاطب.</span
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sec-3">
+          <div class="dec-sec">
+            <svg
+              width="169"
+              height="117"
+              viewBox="0 0 169 117"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_86_195)">
+                <path
+                  d="M41.0591 111.284C75.684 124.232 115.093 113.784 144.789 93.7885C157.431 85.266 167.618 73.3632 168.876 57.7113C170.093 42.6535 162.504 29.9312 150.935 20.7326C138.665 11.0014 123.693 5.36754 108.412 2.41745C89.4185 -1.24969 69.5798 -0.819463 50.9166 4.32272C35.1611 8.66592 19.3025 16.3485 9.09448 29.4395C-0.371172 41.5267 -2.78398 57.5883 3.44396 71.7037C9.46568 85.4094 22.4784 94.3621 36.0891 99.6887C55.1854 107.166 76.2614 108.928 96.6157 107.904C101.854 107.638 107.071 107.187 112.268 106.613C113.443 106.49 112.474 104.114 111.464 104.237C91.7075 106.408 71.6008 106.716 52.1333 102.311C37.0171 98.8897 21.0554 92.8256 10.8474 80.6565C0.721813 68.5693 -1.07233 51.3604 6.53731 37.5523C13.8789 24.2564 27.3865 15.5495 41.2859 10.1615C58.3406 3.52373 76.9832 1.29068 95.2133 2.84767C111.113 4.22028 127.157 8.27667 141.057 16.2665C153.162 23.232 165.061 33.9671 166.917 48.4717C168.938 64.0826 160.999 78.0137 149.058 87.54C136.149 97.8449 120.269 105.364 104.432 109.953C87.7687 114.767 69.9097 116.283 52.8551 112.575C48.71 111.673 44.668 110.444 40.7085 108.969C39.5124 108.518 40.1311 110.956 41.0591 111.305"
+                  fill="#CCCCCC"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_86_195">
+                  <rect width="169" height="117" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p>همراهان تجاری ماcustomers line</p>
+          </div>
+          <div class="sec-swpip">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./svgviewer-png-output (1).png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./svgviewer-png-output (2).png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./svgviewer-png-output.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer></footer>
+      <script src="/src/main.js"></script>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+  </body>
+</html>
