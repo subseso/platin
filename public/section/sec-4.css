@@ -1,0 +1,114 @@
+section > div.sec-4 {
+  width: 100%;
+  height: 820px;
+  position: absolute;
+  font-family: yekan-normal;
+  top: 2850px;
+  /* background-color: aqua; */
+}
+div.sec-4 > div.post-top {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 36px;
+  /* background-color: red; */
+}
+div.post-top > p {
+  margin-top: 25px;
+}
+
+div.sec-4 > div.sec-posts {
+  width: inherit;
+  height: 550px;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+div.sec-posts > div.post {
+  width: 350px;
+  height: inherit;
+  display: flex;
+  position: relative;
+  background-color: #f4f4f4;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: brown; */
+}
+div.post > div.post-image {
+  width: inherit;
+  height: 170px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+}
+div.post-image > img {
+  width: 310px;
+  height: inherit;
+  border-radius: 8px;
+  object-fit: cover;
+}
+div.post > div.post-title {
+  width: 350px;
+  height: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  position: absolute;
+  top: 230px;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 18px;
+}
+div.post > div.post-des {
+  width: 320px;
+  height: 100px;
+  direction: rtl;
+  margin-top: 30px;
+  /* background-color: aqua; */
+  font-family: yekan-thin;
+  text-align: justify;
+}
+
+div.post > div.post-but {
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #96e901;
+  border-radius: 8px;
+  transition: 150ms linear;
+}
+div.post > div.post-but:hover {
+  width: 140px;
+  height: 60px;
+  background-color: #72b000;
+  /* font-size: 18px; */
+}
+
+div.sec-4 > div.read-more {
+  width: inherit;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+div.read-more > button {
+  width: 130px;
+  height: 50px;
+  background-color: black;
+  color: #96e901;
+  font-family: yekan-normal;
+  border-radius: 8px;
+  font-size: 16px;
+}
