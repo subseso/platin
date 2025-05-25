@@ -20,7 +20,7 @@ div.post-top > p {
   margin-top: 25px;
 }
 
-div.sec-4 > div.sec-posts {
+div.sec-posts {
   width: inherit;
   height: 550px;
   /* background-color: beige; */
@@ -86,13 +86,13 @@ div.post > div.post-but {
   align-items: center;
   background-color: #96e901;
   border-radius: 8px;
-  transition: 150ms linear;
+  transition: 100ms linear;
 }
 div.post > div.post-but:hover {
   width: 140px;
   height: 60px;
   background-color: #72b000;
-  /* font-size: 18px; */
+  font-weight: bolder;
 }
 
 div.sec-4 > div.read-more {
