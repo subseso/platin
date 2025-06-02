@@ -1,0 +1,63 @@
+section > div.sec-6 {
+  width: 100%;
+  height: 820px;
+  position: absolute;
+  font-family: yekan-normal;
+  top: 4250px;
+  /* background-color: aqua; */
+}
+div.sec-6 > div.sec-top-3 {
+  width: inherit;
+  height: 120px;
+  display: flex;
+  direction: rtl;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
+}
+div.sec-top-3 > p {
+  font-size: 36px;
+  position: absolute;
+  font-weight: bold;
+  padding-top: 18px;
+  left: 580px;
+}
+#oval {
+  width: 260px;
+  height: 90px;
+}
+#perc {
+  width: 70px;
+  height: 75px;
+  margin-left: 10px;
+  transform: scale(-1, 1);
+}
+
+div.sec-6 > div.sec-posts {
+  height: 600px;
+}
+div.sec-6 > div.sec-posts > div.post {
+  width: 330px;
+}
+
+div.sec-6 > div.sec-posts > div.post > div.post-image {
+  height: 220px;
+}
+div.sec-6 > div.sec-posts > div.post > div.post-image > img {
+  width: 280px;
+}
+div.sec-6 > div.sec-posts > div.post > div.post-title {
+  top: 250px;
+}
+div.sec-6 > div.sec-posts > div.post > div.post-title {
+  width: 300px;
+  direction: rtl;
+  padding-top: 15px;
+  justify-content: start;
+  font-size: 17px;
+  font-weight: 600;
+}
+div.sec-6 > div.sec-posts > div.post > div.post-des {
+  width: 300px;
+}

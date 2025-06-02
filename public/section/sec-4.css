@@ -95,7 +95,7 @@ div.post > div.post-but:hover {
   font-weight: bolder;
 }
 
-div.sec-4 > div.read-more {
+div.read-more {
   width: inherit;
   height: 100px;
   display: flex;

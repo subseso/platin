@@ -12,8 +12,7 @@ header > div.tophead {
   background-color: black;
   color: white;
   display: flex;
-
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 header > div.tophead > div.headlogo {
@@ -21,7 +20,7 @@ header > div.tophead > div.headlogo {
   height: 40px;
   margin-left: 5px;
   display: flex;
-  flex-grow: 4;
+  /* flex-grow: 1; */
   justify-content: center;
   align-items: center;
 }
@@ -40,6 +39,29 @@ header > div.tophead > div.headmenu {
   gap: 35px;
   transition: 300ms linear;
 }
+.menuoff {
+  display: none !important;
+}
+div.tophead > div.but-head {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  right: 10px;
+  /* flex-grow: 1; */
+  justify-content: center;
+  align-items: center;
+  background-color: #96e901;
+}
+div.tophead > div.but-head > img {
+  width: 35px;
+  height: 37px;
+}
+.buton {
+  display: flex !important;
+}
+
 div.headmenu > ul {
   width: inherit;
   height: inherit;
@@ -50,10 +72,46 @@ div.headmenu > ul {
 div.headmenu > ul > li {
   width: auto;
   height: inherit;
-  display: inline-block;
   padding-bottom: 10px;
   display: flex;
   align-items: center;
+}
+.qheadmenu {
+  width: 930px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 5;
+  margin-right: 75px;
+  align-items: center;
+  color: white;
+  direction: rtl;
+  gap: 35px;
+  transition: 300ms linear;
+  overflow: scroll;
+}
+.qul {
+  width: 440px;
+  height: 500px;
+  display: block !important;
+  background-color: black !important;
+  position: absolute;
+  z-index: 1000;
+  top: 100px;
+  color: black;
+  /* overflow: visible; */
+}
+.qli {
+  width: 360px;
+  height: 70px;
+  display: block !important;
+  background-color: black !important;
+  color: black;
+  border-bottom: solid 1px white;
+}
+.qli > p {
+  color: black;
 }
 
 div.headmenu > ul > li > p {

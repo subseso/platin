@@ -1,0 +1,54 @@
+section > div.sec-9 {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  /* background-color: aqua; */
+  top: 5700px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+div.sec-9 > div.sec-con-1 {
+  width: 50%;
+  height: 250px;
+  /* display: flex; */
+  /* align-self: center; */
+  /* background-color: red; */
+  align-items: center;
+  position: relative;
+  /* flex-direction: column; */
+  font-family: yekan-normal;
+
+  /* background-color: green; */
+}
+
+div.sec-con-1 > div.sec-top-5 > img {
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  right: 40px;
+}
+
+div.sec-con-1 > div.sec-top-5 > p {
+  font-size: 36px;
+  direction: rtl;
+  margin-right: 50px;
+}
+div.sec-con-1 > span {
+  width: 530px;
+  height: 170px;
+  right: 50px;
+  margin-top: 40px;
+  position: absolute;
+  direction: rtl;
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+div.sec-9 > div.sec-vid-1 {
+  width: 50%;
+  height: inherit;
+  /* background-color: blueviolet; */
+}

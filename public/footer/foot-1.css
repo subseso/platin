@@ -1,0 +1,120 @@
+footer > div.foot-1 {
+  width: 100%;
+  height: 510px;
+  background-color: #d9d9d9;
+  display: flex;
+  position: absolute;
+  top: 7000px;
+}
+div.foot-1 > div.left-foot {
+  width: 500px;
+  height: inherit;
+  /* background-color: red; */
+  margin-left: 150px;
+}
+div.left-foot > div.foot-tel {
+  width: 340px;
+  height: 90px;
+  /* background-color: brown; */
+  margin-top: 50px;
+}
+
+div.foot-tel > p {
+  display: flex;
+  align-items: center;
+  font-family: yekan-normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+div.foot-tel > p > svg {
+  margin-right: 5px;
+}
+#tel-2 {
+  margin-left: 25px;
+}
+div.foot-tel > span {
+  font-family: yekan-normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-left: 25px;
+}
+div.left-foot > div.foot-email {
+  width: 280px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+div.foot-email > p {
+  font-size: 23px;
+  font-family: yekan-normal;
+}
+div.foot-email > img {
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+div.left-foot > div.foot-map {
+  width: inherit;
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+}
+div.left-foot > div.foot-add {
+  width: 100%;
+  height: 60px;
+  /* background-color: blue; */
+  display: flex;
+  direction: rtl;
+  padding-top: 35px;
+}
+div.foot-add > p {
+  font-family: yekan-normal;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+div.foot-1 > div.right-foot {
+  width: 540px;
+  height: inherit;
+  /* background-color: blueviolet; */
+  direction: rtl;
+  position: absolute;
+  right: 150px;
+}
+div.right-foot > div.foot-logo {
+  width: inherit;
+  height: 40px;
+  margin-top: 70px;
+  /* background-color: aliceblue; */
+}
+div.right-foot > div.foot-dec {
+  width: 450px;
+  height: 50px;
+  /* background-color: red; */
+  margin-top: 40px;
+}
+div.foot-dec > span {
+  font-size: 18px;
+  line-height: 1.75rem;
+  font-family: yekan-thin;
+}
+
+div.foot-enamad > img {
+  width: 80px;
+  height: 75px;
+  margin-top: 30px;
+}
+div.right-foot > div.foot-brand {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+div.foot-brand > img {
+  width: 25px;
+  height: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+}

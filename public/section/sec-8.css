@@ -1,0 +1,63 @@
+section > div.sec-8 {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  top: 5200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+div.sec-8 > div.sec-top-4 {
+  width: 430px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  position: absolute;
+  top: 0;
+  right: 165px;
+  border-radius: 12px;
+  background-color: #96e901;
+}
+div.sec-top-4 > img {
+  width: 67px;
+  height: 67px;
+  transform: scale(-1, 1);
+}
+div.sec-top-4 > div.sec-text-2 {
+  width: 280px;
+  height: auto;
+  margin-right: 40px;
+  /* background-color: aquamarine; */
+}
+div.sec-text-2 > h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: yekan-bold;
+}
+div.sec-text-2 > h4 {
+  font-size: 20px;
+  line-height: 40px;
+  font-family: yekan-normal;
+}
+div.sec-8 > div.swip-sec-2 {
+  width: 1040px;
+  height: 365px;
+  /* background-color: red; */
+  margin-top: 90px;
+}
+div.swip.sec-2 > .mySwiper3 {
+  width: inherit;
+  height: inherit;
+}
+div.mySwiper3 > div.swiper-wrapper > div.swiper-slide {
+  width: inherit;
+  height: inherit;
+}
+div.mySwiper3 > div.swiper-wrapper > div.swiper-slide > img {
+  width: 260px;
+  height: 350px;
+  object-fit: cover;
+}
